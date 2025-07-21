@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/* MAIN BODY */
+
+body {
+    background-color: rgb(243, 132, 132);
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/* TITLE */
+
+.title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2.5rem;
+}
+
+/* MAIN CONTAINER OF CALCULATOR */
+.container1 {
+    margin-top: 20px;
+    height: 453px;
+    width: 318px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    background-color: black;
+    border-radius: 12px;
+
+}
+
+/* BOX 1 OF DISPLAY */
+.box1 {
+    height: 150px;
+    width: 300px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    
+}
+
+/* BOX 2 FOR KEYS */
+.box2 {
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    
+    
+}
+
+
+/* DISPLAY 1 INSIDE BOX 1 */
+.display1 {
+    height: 150px;
+    width: 300px;
+    color: white;
+    font-size: 2rem;
+
+    
+}
+
+/* DISPLAY 2 INSIDE BOX 2 FOR BUTTONS */
+
+.display2 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    color: white;
+    height: 60px;
+    width: 300px;
+   
+}
+
+/* BUTTONS ROW */
+
+.input1 {
+    height: 150px;
+    width: 300px;
+    display: flex;
+    text-align: right;
+    align-items: flex-end;
+    justify-content: flex-end;
+    color: white;
+    border: none;
+    border-style: none;
+    font-size: 2rem;
+    background-color: black;
+}
+
+/* EACH BUTTON */
+.boxes {
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    border-radius: 50px;
+    border: none;
+} 
+
+/* RESULT/EQUAL BUTTON */
+
+.equal {
+    width: 120px;
+}
+
+
+/* colour for Buttons */
+
+.boxes:active {
+    background-color: grey;
+}
+
+.yellow {
+    background-color: rgb(250, 154, 0);
+}
+
+.darkgrey {
+    background-color: rgba(128, 128, 128, 0.559);
+}
+
+.lightgrey {
+    background-color: rgb(171, 171, 171);
+}
+
